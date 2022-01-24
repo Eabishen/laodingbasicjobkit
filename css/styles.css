@@ -44,6 +44,10 @@ body {
 
 #title {
     /* background-color: #55a4ff; */
+    z-index: 99;
+    background: url(../images/testi.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container-fluid {
