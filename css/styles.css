@@ -48,6 +48,8 @@ body {
     background: url(../images/testi.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
+
 }
 
 .container-fluid {
