@@ -50,6 +50,11 @@ body {
     padding: 3%;
 }
 
+.imglogo {
+    margin-top: 8px;
+    width: 110%;
+}
+
 /* Top-navigation bar */
 
 .padcust {
