@@ -43,16 +43,11 @@ body {
 /* title-section */
 
 #title {
-    background-color: #55a4ff;
+    /* background-color: #55a4ff; */
 }
 
 .container-fluid {
     padding: 3%;
-}
-
-.imglogo {
-    margin-top: 8px;
-    width: 110%;
 }
 
 /* Top-navigation bar */
@@ -62,8 +57,17 @@ body {
     max-height: 100vh;
 }
 
+.padcust h1 {
+    color: #1b1b1b;
+}
+
 .secttwo {
     padding: 100px 0;
+}
+
+.imglogo {
+    margin-top: 8px;
+    width: 110%;
 }
 
 h1 {
@@ -134,10 +138,13 @@ h2 {
     margin: 5% 3% 5% 0;
     font-size: 20px;
     font-weight: 600;
+    border: 1px solid #55a4ff;
+    color: #55a4ff;
 }
 
 .buttons:hover {
-    color: #55a4ff;
+    color: #dadada;
+    background-color: #55a4ff;
 }
 
 .btncust {
