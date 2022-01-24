@@ -1,0 +1,269 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: black !important;
+    overflow-x: hidden;
+}
+
+.navcus {
+    padding: 10px 40px;
+}
+
+.cusotbn {
+    border: 1px solid #55a4ff;
+    color: #55a4ff;
+    font-weight: 600;
+}
+
+.cusotbn:hover {
+    background-color: #55a4ff;
+    color: #fff;
+}
+
+.fontw {
+    color: #000;
+}
+
+.col-lg-4 {
+    display: inline-block;
+}
+
+.fas {
+    color: #55a4ff;
+}
+
+.h3f {
+    padding: 5%;
+}
+
+.hp {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+/* title-section */
+
+#title {
+    background-color: #55a4ff;
+}
+
+.container-fluid {
+    padding: 3%;
+}
+
+/* Top-navigation bar */
+
+.padcust {
+    padding-top: 100px;
+    max-height: 100vh;
+}
+
+.secttwo {
+    padding: 100px 0;
+}
+
+h1 {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #eee;
+}
+
+h2 {
+    font-family: "Monserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.logo {
+    margin-left: -20px;
+}
+
+.imgCustom {
+    transform: scale(0.5);
+}
+
+.contentBx {
+    padding: 0 40px;
+}
+
+#testimonials {
+    color: white;
+    background-color: #55a4ff;
+
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+.press-pic {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#press {
+    background-color: #55a4ff;
+    /* remove Flex and alignment, jc and text-align if image is replaced */
+    text-align: center;
+    padding: 2% 2%;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+/* buttons */
+
+.iconss {
+    padding: 5px;
+}
+
+.buttons {
+    margin: 5% 3% 5% 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.buttons:hover {
+    color: #55a4ff;
+}
+
+.btncust {
+    background-color: #55a4ff;
+}
+
+.btncust:hover {
+    background-color: rgb(231, 231, 231);
+    color: #55a4ff;
+    border: 1px solid #55a4ff;
+}
+
+.btnfree {
+    border: 1px solid #55a4ff;
+    color: #55a4ff;
+    background-color: rgb(231, 231, 231);
+}
+
+.btnfree:hover {
+    background-color: #55a4ff;
+    color: #000;
+}
+
+/* pricing-section */
+
+#pricing {
+    padding: 100px;
+}
+
+.bodycust {
+    padding-bottom: 60px;
+}
+
+.pricing-c {
+    padding: 2% 3%;
+    text-align: center;
+}
+
+/* features-section */
+
+#features {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    margin-bottom: 1rem;
+}
+
+.feature-box:hover {
+    color: #1b1b1b;
+}
+
+/* phone-image */
+
+.image-box {
+    width: 90%;
+    position: absolute;
+    right: 10%;
+    transform: scale(1.2);
+}
+
+@keyframes fadein {
+    0% {
+        transform: translateX(-200);
+    }
+    100% {
+        transform: translateX(00);
+    }
+}
+
+/* media-query */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .padcust {
+        padding-bottom: 100px;
+        height: 100vh;
+    }
+
+    .image-box {
+        visibility: hidden;
+        position: static;
+    }
+}
+
+@media (max-width: 468px) {
+    .carousel-font {
+        font-size: 20px;
+    }
+}
+
+/* footer-section */
+
+#cta {
+    background-color: #55a4ff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+
+/* footer-section */
+
+#footer {
+    background-color: #fff;
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.ft-icons {
+    margin: 20px 10px;
+    color: rgb(34, 33, 33);
+}
+
+.ff {
+    color: #8f8f8f;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+
+font-family: 'Ubuntu', sans-serif;
+
+<i class="fas fa-check-circle"></i> */
