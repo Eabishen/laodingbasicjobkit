@@ -44,12 +44,15 @@ body {
 
 #title {
     /* background-color: #55a4ff; */
+
+    min-height: 100vh;
     z-index: 99;
     background: url(../images/testi.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+}
 
+#home {
 }
 
 .container-fluid {
@@ -178,6 +181,11 @@ h2 {
 
 #pricing {
     padding: 100px;
+    min-height: 100vh;
+    z-index: 99;
+    background: url(../images/test3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .bodycust {
@@ -200,6 +208,10 @@ h2 {
     text-align: center;
     position: relative;
     z-index: 1;
+    background: url(../images/test3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
 }
 
 .feature-box {
@@ -216,6 +228,7 @@ h2 {
     width: 90%;
     position: absolute;
     right: 10%;
+    z-index: 99;
     transform: scale(1.2);
 }
 
@@ -255,17 +268,23 @@ h2 {
 /* footer-section */
 
 #cta {
-    background-color: #55a4ff;
+    min-height: 80vh;
+    z-index: 99;
+    background: url(../images/test2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding: 7% 15%;
+    align-items: center;
+    padding: 15% 15%;
+    margin-top: 20%;
 }
 
 .cta-text {
     font-family: "Montserrat", sans-serif;
     font-size: 3.5rem;
-    color: #fff;
+    color: #1b1b1b;
     font-weight: 900;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
 }
 
 /* footer-section */
