@@ -1,400 +1,402 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Css -->
+
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
         <title>Jobaskit</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-            rel="stylesheet"
-        />
-
-        <!-- scripts -->
-        <script
-            src="https://kit.fontawesome.com/6853311342.js"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-            crossorigin="anonymous"
-        ></script>
     </head>
-
     <body>
-        <section id="title">
-            <div class="container-fluid">
-                <!-- Nav Bar -->
-
-                <nav
-                    class="navbar navbar-expand-lg navbar-light bg-light fixed-top navcus"
+        <!-- navBar -->
+        <nav
+            class="navbar navbar-expand-lg sticky-top py-3 navbar-light bg-white"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img style="width: 75%" src="images/logo copy.png" alt="" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
                 >
-                    <a class="navbar-brand" href="#home">
-                        <img class="imglogo" src="images/logo copy.png" alt="" />
-                    </a>
-
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Dropdown
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Landing</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Pricing</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Sign up</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                For Jobs/internship
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Landing</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Pricing</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Sign up</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                For Campuses
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Landing</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Pricing</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Sign up</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sales Enquiry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Thank you</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary ms-lg-2">
+                        Discover More
                     </button>
+                </div>
+            </div>
+        </nav>
+        <!-- navBar ends -->
 
-                    <div
-                        class="collapse navbar-collapse"
-                        id="navbarSupportedContent"
-                    >
-                        <ul class="navbar-nav mr-auto logo">
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle fontw"
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    For Bussiness
-                                </a>
-                                <div
-                                    class="dropdown-menu"
-                                    aria-labelledby="navbarDropdown"
-                                >
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#"
-                                        >Another action</a
-                                    >
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#"
-                                        >Something else here</a
-                                    >
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle fontw"
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    For Jobs/internship
-                                </a>
-                                <!-- <div
-                                class="dropdown-menu"
-                                aria-labelledby="navbarDropdown"
-                            >
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </div> -->
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle fontw"
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    For Campuses
-                                </a>
-                                <!-- <div
-                                class="dropdown-menu"
-                                aria-labelledby="navbarDropdown"
-                            >
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </div> -->
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#footer"
-                                    >Sale Enquiry</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pricing">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#cta">Feedback</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#cta">Feedback</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn cusotbn" href="#cta"
-                                    >Discover More</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-
-                <!-- Title -->
-                <div class="row padcust" id="home">
-                    <div class="col-lg-6 contentBx">
-                        <h1>Start your dream Bussiness with us right now!</h1>
-                        <button
-                            type="button"
-                            class="btn btn-lg btn-outline-light buttons"
+        <!-- Hero Section -->
+        <div class="hero vh-100 d-flex align-items-center" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 mx-auto text-center">
+                        <h1 class="display-4 text-white">
+                            Start your Bussiness with us now
+                        </h1>
+                        <p class="text-white my-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Animi odit ratione at aut necessitatibus harum
+                            ab iste, dicta eum incidunt.
+                        </p>
+                        <a href="#" class="btn btn-primary me-1">Get Started</a>
+                        <a href="#" class="btn btn-outline-light"
+                            >Discover More</a
                         >
-                            <i class="fab iconss fa-google-play"></i>Discover
-                            More
-                        </button>
-                    </div>
-                    <div class="col-lg-6">
-                        <img
-                            class="image-box"
-                            src="images/animated.gif"
-                            alt="iphone-mockup"
-                        />
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- Hero Section Ends -->
 
-        <!-- Features -->
-
-        <section id="features">
-            <div class="row secttwo">
-                <div class="con col-lg-4">
-                    <i class="fas fa-check-circle feature-box fa-4x"></i>
-                    <h3 class="hp">Easy to use.</h3>
-                    <p class="h3f">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Id commodi est, ipsa cum sit,
-                    </p>
-                </div>
-
-                <div class="con col-lg-4">
-                    <i class="fas fa-bullseye feature-box fa-4x"></i>
-                    <h3 class="hp">Elite Clientele</h3>
-                    <p class="h3f">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Id commodi est, ipsa cum sit,
-                    </p>
-                </div>
-
-                <div class="con col-lg-4">
-                    <i class="fas fa-heart feature-box fa-4x"></i>
-                    <h3 class="hp">Guaranteed to work.</h3>
-                    <p class="h3f">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Id commodi est, ipsa cum sit,
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials -->
-
-        <section id="testimonials">
-            <div
-                id="carouselExampleControls"
-                class="carousel slide"
-                data-ride="carousel"
-            >
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <h2 class="carousel-font">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Reiciendis inventore quis provident.
-                        </h2>
-                        <img
-                            class="testimonial-image"
-                            src="images/dog-img.jpg"
-                            alt="dog-profile"
-                        />
-                        <em>Pebbles, New York</em>
-                    </div>
-                    <div class="carousel-item">
-                        <h2 class="testimonial-text carousel-font">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Reiciendis inventore quis provident.
-                        </h2>
-                        <img
-                            class="testimonial-image"
-                            src="images/lady-img.jpg"
-                            alt="lady-profile"
-                        />
-                        <em>Beverly, Illinois</em>
+        <!-- section -->
+        <section id="services">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">Perks that comes with us</h6>
+                        <h1>Various Choices everyone</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Fugit ducimus ipsa illum in maxime quis culpa
+                            corrupti dolorum facilis obcaecati!
+                        </p>
                     </div>
                 </div>
-                <a
-                    class="carousel-control-prev"
-                    href="#carouselExampleControls"
-                    role="button"
-                    data-slide="prev"
-                >
-                    <span
-                        class="carousel-control-prev-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a
-                    class="carousel-control-next"
-                    href="#carouselExampleControls"
-                    role="button"
-                    data-slide="next"
-                >
-                    <span
-                        class="carousel-control-next-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-            <!-- <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em> -->
-
-            <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-        </section>
-
-        <!-- Press -->
-
-        <section id="press">
-            <h2>image*</h2>
-            <h2>image*</h2>
-            <h2>image*</h2>
-        </section>
-
-        <!-- Pricing -->
-
-        <section id="pricing">
-            <h2>A Plan for Everyones Need</h2>
-            <p>
-                Simple and affordable price plans for your and your bussiness.
-            </p>
-
-            <div class="row">
-                <div class="pricing-c col-lg-4 col-md-6">
-                    <div class="card cardshadow">
-                        <div class="card-header">
-                            <h3>Basic</h3>
-                        </div>
-                        <div class="card-body bodycust">
-                            <h2>Free</h2>
-                            <p>5 Matches Per Day</p>
-                            <p>10 Messages Per Day</p>
-                            <p>Unlimited App Usage</p>
-                            <button
-                                type="button"
-                                class="btn btn-lg btnfree btn-block"
-                            >
-                                Sign Up
-                            </button>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-message-square-dots"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Clients</h5>
+                            <!-- 15 text max -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Quae suscipit at error eum.
+                                Optio, voluptate!
+                            </p>
                         </div>
                     </div>
-                </div>
-
-                <div class="pricing-c col-lg-4 col-md-6">
-                    <div class="card cardshadow">
-                        <div class="card-header">
-                            <h3>Labrador</h3>
-                        </div>
-                        <div class="card-body bodycust">
-                            <h2>$49 / mo</h2>
-                            <p>Unlimited Matches</p>
-                            <p>Unlimited Messages</p>
-                            <p>Unlimited App Usage</p>
-                            <button
-                                type="button"
-                                class="btn btn-lg btncust btn-block"
-                            >
-                                Sign Up
-                            </button>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bx-cycling"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Students</h5>
+                            <!-- 15 text max -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Quae suscipit at error eum.
+                                Optio, voluptate!
+                            </p>
                         </div>
                     </div>
-                </div>
-
-                <div class="pricing-c col-lg-4">
-                    <div class="card cardshadow">
-                        <div class="card-header">
-                            <h3>Enterprises</h3>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-chat"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Work</h5>
+                            <!-- 15 text max -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Quae suscipit at error eum.
+                                Optio, voluptate!
+                            </p>
                         </div>
-                        <div class="card-body">
-                            <h2>$99 / mo</h2>
-                            <p>Pirority Listing</p>
-                            <p>Unlimited Matches</p>
-                            <p>Unlimited Messages</p>
-                            <p>Unlimited App Usage</p>
-                            <button
-                                type="button"
-                                class="btn btn-lg btncust btn-block"
-                            >
-                                Sign Up
-                            </button>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-briefcase"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Jobs</h5>
+                            <!-- 15 text max -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Quae suscipit at error eum.
+                                Optio, voluptate!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bxs-user"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">entrepreneur</h5>
+                            <!-- 15 text max -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Quae suscipit at error eum.
+                                Optio, voluptate!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service card-effect">
+                            <div class="iconbox">
+                                <i class="bx bx-slideshow"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Start Up</h5>
+                            <!-- 15 text max -->
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Quae suscipit at error eum.
+                                Optio, voluptate!
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- section Ends -->
 
-        <!-- Call to Action -->
+        <!-- AD section -->
+        <section id="section" class="row w-100 py-0 bg-light">
+            <div class="col-lg-6 col-img"></div>
+            <div class="col-lg-6 py-5">
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h6 class="text-primary">Life made easy now</h6>
+                            <h1>Manage on the GO!</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Fugit ducimus ipsa illum in
+                                maxime quis culpa corrupti dolorum facilis
+                                obcaecati!
+                            </p>
 
-        <section id="cta">
-            <h3 class="cta-text">Achieve your dream today.</h3>
-
-            <button type="button" class="btn btn-lg btn-light buttons">
-                <i class="fab fa-google-play"></i>Discover More
-            </button>
+                            <div class="features d-flex mt-4">
+                                <div class="iconbox me-3">
+                                    <i class="bx bxs-plane-alt"></i>
+                                </div>
+                                <div>
+                                    <h5>Easy apply</h5>
+                                    <!-- 10 text max -->
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Alias, eius.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="features d-flex mt-4">
+                                <div class="iconbox me-3">
+                                    <i class="bx bxs-ghost"></i>
+                                </div>
+                                <div>
+                                    <h5>Manage everything easily</h5>
+                                    <!-- 10 text max -->
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Alias, eius.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="features d-flex mt-4">
+                                <div class="iconbox me-3">
+                                    <i class="bx bxs-check-square"></i>
+                                </div>
+                                <div>
+                                    <h5>Great value</h5>
+                                    <!-- 10 text max -->
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Alias, eius.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- AD end Section -->
 
-        <!-- Footer -->
-
-        <footer id="footer">
-            <a href="">
-                <i class="ft-icons fab fa-twitter"></i>
-            </a>
-            <a href="">
-                <i class="ft-icons fab fa-facebook-f"></i>
-            </a>
-            <a href="">
-                <i class="ft-icons fab fa-instagram"></i>
-            </a>
-            <a href="">
-                <i class="ft-icons fas fa-envelope-open"></i>
-            </a>
-
-            <p class="ff">© Copyright 2022 Jobaskit</p>
-        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>
