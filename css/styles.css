@@ -28,8 +28,16 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 .navbar {
     box-shadow: var(--box-shadow);
+}
+
+.navbar .btn {
+    font-size: 15px;
 }
 
 .navbar .nav-link {
@@ -39,11 +47,11 @@ a {
 }
 
 .btn {
-    padding: 8px 10px;
+    padding: 8px 5px;
 }
 
 .hero {
-    background-image: url(/images/demob.gif);
+    background: url(/images/front1.gif) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -67,6 +75,7 @@ section {
     padding-bottom: 120px;
 }
 
+/* Card Effect */
 .card-effect {
     box-shadow: var(--box-shadow);
     background-color: #fff;
@@ -78,6 +87,7 @@ section {
     box-shadow: none;
     transform: translateY(5px);
 }
+/* Card Effect */
 
 .iconbox {
     width: 50px;
@@ -131,4 +141,94 @@ section {
     background-position: center;
     background-size: cover;
     min-height: 500px;
+}
+
+.project {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.project .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s ease;
+}
+
+.project .custcolor {
+    color: var(--dark);
+}
+
+.project img {
+    transition: all 0.4s ease;
+}
+
+.project:hover .overlay {
+    background-color: rgba(21, 20, 51, 0.8);
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project:hover .custcolor {
+    color: var(--white);
+}
+
+.price-cont {
+    background-image: url(/images/test3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pricing ul li {
+    margin-top: 8px;
+}
+
+.pricing i {
+    font-size: 12px;
+    color: var(--primary);
+}
+
+.team-member img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    color: var(--dark);
+}
+
+.blog-post:hover img {
+    transition: all 0.45s ease;
+}
+
+.blog-post:hover img {
+    transform: scale(1.1);
+}
+
+.blog-post h5 {
+    transition: all 0.45s ease;
+}
+
+.blog-post p {
+    transition: all 0.45s ease;
+}
+
+.blog-post:hover h5 {
+    font-size: 21px;
+}
+
+.blog-post:hover p {
+    font-size: 15px;
 }
