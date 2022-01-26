@@ -232,3 +232,42 @@ section {
 .blog-post:hover p {
     font-size: 15px;
 }
+
+.footer-top {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background-color: var(--dark);
+}
+
+.footer-top .logo {
+    width: 120px;
+}
+
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-top i {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 8px 4px;
+    color: var(--white);
+    transition: all 0.45s ease;
+}
+
+.footer-top .footlogo:hover {
+    font-size: 24px;
+    color: var(--primary);
+}
+
+.footer-bottom {
+    background-color: var(--dark);
+}
+
+.footer-top li {
+    font-size: 14px;
+}
