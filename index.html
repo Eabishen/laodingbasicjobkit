@@ -30,6 +30,9 @@
             rel="stylesheet"
         />
 
+         <!-- animation -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -138,33 +141,35 @@
         </nav>
         <!-- navBar ends -->
 
-        <!-- Hero Section -->
-        <div class="hero vh-100 d-flex align-items-center" id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 mx-auto text-center">
-                        <h1 class="display-4 text-white">
-                            Start your Bussiness with us now
-                        </h1>
-                        <p class="text-white my-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Animi odit ratione at aut necessitatibus harum
-                            ab iste, dicta eum incidunt.
-                        </p>
-                        <a href="#" class="btn btn-primary me-1">Get Started</a>
-                        <a href="#services" class="btn btn-outline-light"
-                            >Discover More</a
-                        >
-                    </div>
+       <!-- Hero -->
+       <section id="home" class="bg-light">
+            <div class="row d-flex">              
+                <div class="col-lg-6 text-center p-5" data-aos="zoom-in" data-aos-duration="1500">
+                    <h1 class="display-4">
+                        Start your Bussiness with us now
+                    </h1>
+                    <p class= "my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Animi odit ratione at aut necessitatibus harum
+                        ab iste, dicta eum incidunt.
+                    </p>
+                    <a href="#" class="btn btn-primary me-1">Get Started</a>
+                    <a href="#services" class="btn btn-outline-primary"
+                        >Discover More</a
+                    >
+                </div>
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
+                    <img style="width: 100%; object-fit: cover;" src="/images/GIF amination laptop.gif" alt="">
                 </div>
             </div>
         </div>
-        <!-- Hero Section Ends -->
+    </section>
+    <!-- Hero End -->
 
         <!-- fsection -->
         <section id="services">
             <div class="container">
-                <div class="row mb-5">
+                <div class="row mb-5" data-aos="fade-in" data-aos-duration="1500">
                     <div class="col-md-8 mx-auto text-center">
                         <h6 class="text-primary">Perks that comes with us</h6>
                         <h1>Various Choices everyone</h1>
@@ -177,7 +182,7 @@
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect">
+                        <div class="service card-effect" data-aos="slide-right" data-aos-duration="1500">
                             <div class="iconbox">
                                 <i class="bx bxs-message-square-dots"></i>
                             </div>
@@ -191,7 +196,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect">
+                        <div class="service card-effect" data-aos="zoom-out" data-aos-duration="1500">
                             <div class="iconbox">
                                 <i class="bx bx-cycling"></i>
                             </div>
@@ -205,7 +210,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect">
+                        <div class="service card-effect" data-aos="slide-left" data-aos-duration="1500">
                             <div class="iconbox">
                                 <i class="bx bxs-chat"></i>
                             </div>
@@ -219,7 +224,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect">
+                        <div class="service card-effect" data-aos="slide-right" data-aos-duration="1500">
                             <div class="iconbox">
                                 <i class="bx bxs-briefcase"></i>
                             </div>
@@ -233,7 +238,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect">
+                        <div class="service card-effect" data-aos="zoom-out" data-aos-duration="1500">
                             <div class="iconbox">
                                 <i class="bx bxs-user"></i>
                             </div>
@@ -247,7 +252,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect">
+                        <div class="service card-effect" data-aos="slide-left" data-aos-duration="1500">
                             <div class="iconbox">
                                 <i class="bx bx-slideshow"></i>
                             </div>
@@ -267,11 +272,11 @@
 
         <!-- AD section -->
         <section id="section" class="row w-100 py-0 bg-light">
-            <div class="col-lg-6 col-img"></div>
+            <div class="col-lg-6 col-img" data-aos="zoom-in-right" data-aos-duration="1500"></div>
             <div class="col-lg-6 py-5">
                 <div class="conatiner">
                     <div class="row">
-                        <div class="col-md-10 offset-md-1">
+                        <div class="col-md-10 offset-md-1" data-aos="zoom-in-left" data-aos-duration="1500">
                             <h6 class="text-primary">Life made easy now</h6>
                             <h1>Manage on the GO!</h1>
                             <p>
@@ -331,7 +336,7 @@
         <section id="work">
             <div class="container-fluid">
                 <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center">
+                    <div class="col-md-8 mx-auto text-center" data-aos="slide-up" data-aos-duration="1500">
                         <h6 class="text-primary">Our Services</h6>
                         <h1>Making Everyone's Life easy</h1>
                         <p>
@@ -343,7 +348,7 @@
                 </div>
                 <div class="row g-3">
                     <div class="col-lg-4 col-sm-6">
-                        <div class="project">
+                        <div class="project" data-aos="slide-right" data-aos-duration="1500">
                             <img src="images/pro1.jpg" alt="" />
                             <div class="overlay">
                                 <div>
@@ -356,7 +361,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="project">
+                        <div class="project" data-aos="zoom-in" data-aos-duration="1500">
                             <img src="images/pro2.jpg" alt="" />
                             <div class="overlay">
                                 <div>
@@ -369,7 +374,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="project">
+                        <div class="project" data-aos="slide-left" data-aos-duration="1500">
                             <img src="images/pro3.jpg" alt="" />
                             <div class="overlay">
                                 <div>
@@ -390,7 +395,7 @@
         <!-- works Ends -->
 
         <!-- Pricing -->
-         <!-- <section id="pricing" class="price-cont">
+        <!-- <section id="pricing" class="price-cont">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-md-8 mx-auto text-center">
@@ -503,7 +508,7 @@
         <section id="testimonial">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center">
+                    <div class="col-md-8 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1500">
                         <h6 class="text-primary">Testimonial</h6>
                         <h1>Meet our customers!</h1>
                         <p>
@@ -515,7 +520,7 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect">
+                        <div class="team-member card-effect" data-aos="zoom-in" data-aos-duration="1500">
                             <img src="images/team1.jpg" alt="" />
                             <h5 class="mb-0">Raja Rider</h5>
                             <p>
@@ -527,7 +532,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect">
+                        <div class="team-member card-effect" data-aos="zoom-in" data-aos-duration="1500">
                             <img src="images/team2.jpg" alt="" />
                             <h5 class="mb-0">Chandler Bing</h5>
                             <p>
@@ -539,7 +544,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect">
+                        <div class="team-member card-effect" data-aos="zoom-in" data-aos-duration="1500">
                             <img src="images/team3.jpg" alt="" />
                             <h5 class="mb-0">Sheldon Cooper</h5>
                             <p>
@@ -551,7 +556,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect">
+                        <div class="team-member card-effect" data-aos="zoom-in" data-aos-duration="1500">
                             <img src="images/team4.jpg" alt="" />
                             <h5 class="mb-0">Messy Cooper</h5>
                             <p>
@@ -571,7 +576,7 @@
         <section id="blog" class="bg-light">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center">
+                    <div class="col-md-8 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1500">
                         <h6 class="text-primary">Blog</h6>
                         <h1>Latest news from us</h1>
                         <p>
@@ -583,7 +588,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="blog-post card-effect">
+                        <div class="blog-post card-effect" data-aos="zoom-in-right" data-aos-duration="1500">
                             <img src="images/blog2.jpg" alt="" />
                             <h5 class="mt-4">
                                 <a href="#">
@@ -599,7 +604,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="blog-post card-effect">
+                        <div class="blog-post card-effect" data-aos="zoom-in" data-aos-duration="1500">
                             <img src="images/blog3.jpg" alt="" />
                             <h5 class="mt-4">
                                 <a href="#">
@@ -615,7 +620,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="blog-post card-effect">
+                        <div class="blog-post card-effect" data-aos="zoom-in-left" data-aos-duration="1500">
                             <img src="images/blog1.jpg" alt="" />
                             <h5 class="mt-4">
                                 <a href="#">
@@ -634,8 +639,8 @@
             </div>
         </section>
         <!-- Blog Ends  -->
-        
-               <!-- Footer -->
+
+        <!-- Footer -->
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
@@ -701,5 +706,12 @@
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"
         ></script>
+
+        <!-- AOS animation -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
     </body>
 </html>
