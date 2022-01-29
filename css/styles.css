@@ -81,12 +81,12 @@ img {
 } */
 
 section {
-    padding-top: 90px;
-    padding-bottom: 90px;
     width: 100%;
     overscroll-behavior: contain;
     overflow-x: hidden;
     box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* Card Effect */
@@ -242,14 +242,11 @@ section {
 
 .blog-post p {
     transition: all 0.45s ease;
+    pointer-events: none;
 }
 
 .blog-post:hover h5 {
     font-size: 21px;
-}
-
-.blog-post:hover p {
-    font-size: 15px;
 }
 
 .footer-top {
