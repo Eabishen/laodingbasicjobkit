@@ -44,7 +44,7 @@
     </head>
     <body>
         <!-- navBar -->
-        <nav
+        <nav id="nav"
             class="navbar navbar-expand-lg sticky-top py-3 navbar-light bg-white"
         >
             <div class="container">
@@ -144,7 +144,7 @@
        <!-- Hero -->
        <section id="home" class="bg-light">
             <div class="row d-flex">              
-                <div class="col-lg-6 text-center p-5" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="col-lg-6 text-center p-5" data-aos="slide-right" data-aos-duration="2000">
                     <h1 class="display-4">
                         Start your Bussiness with us now
                     </h1>
@@ -158,8 +158,8 @@
                         >Discover More</a
                     >
                 </div>
-                <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
-                    <img style="width: 100%; object-fit: cover;" src="/images/GIF amination laptop.gif" alt="">
+                <div class="col-lg-6" data-aos="fade-in" data-aos-duration="2000">
+                    <img src="/images/WIP.gif" alt="">
                 </div>
             </div>
         </div>
@@ -172,7 +172,7 @@
                 <div class="row mb-5" data-aos="fade-in" data-aos-duration="1500">
                     <div class="col-md-8 mx-auto text-center">
                         <h6 class="text-primary">Perks that comes with us</h6>
-                        <h1>Various Choices everyone</h1>
+                        <h1>Various Choice for everyone</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Fugit ducimus ipsa illum in maxime quis culpa
@@ -271,7 +271,7 @@
         <!-- fsection Ends -->
 
         <!-- AD section -->
-        <section id="section" class="row w-100 py-0 bg-light">
+        <section id="section" class="row w-100 py-0 p-2 bg-light">
             <div class="col-lg-6 col-img" data-aos="zoom-in-right" data-aos-duration="1500"></div>
             <div class="col-lg-6 py-5">
                 <div class="conatiner">
@@ -518,7 +518,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center g-5">
                     <div class="col-lg-3 col-sm-6">
                         <div class="team-member card-effect" data-aos="zoom-out-right" data-aos-duration="1500">
                             <img src="images/team1.jpg" alt="" />
@@ -586,7 +586,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row g-2">
                     <div class="col-md-4">
                         <div class="blog-post card-effect" data-aos="zoom-in-right" data-aos-duration="1500">
                             <img src="images/blog2.jpg" alt="" />
@@ -683,7 +683,7 @@
                         <h5 class="text-white">Contact us</h5>
                         <ul class="list-unstyled">
                             <li>
-                                1Makos Infotech Private Limited, Amara Sri,
+                                Makos Infotech Private Limited, Amara Sri,
                                 Situated at Old No.313, New No.455, Block No.75,
                                 7th Floor Anna Salai, Teynampet, Chennai -
                                 600018 Tamil Nadu
@@ -710,7 +710,9 @@
         <!-- AOS animation -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-          AOS.init();
+          AOS.init({
+            once:true
+          });
         </script>
 
     </body>
