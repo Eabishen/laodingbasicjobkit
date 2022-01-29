@@ -10,6 +10,8 @@ body {
     font-family: "Sora", "sans-serif";
     line-height: 1.7;
     color: var(--body);
+    overflow-x: hidden;
+    overscroll-behavior: contain;
 }
 
 h1,
@@ -32,6 +34,18 @@ img {
     width: 100%;
 }
 
+#nav {
+    overscroll-behavior: contain;
+}
+
+#home {
+    overscroll-behavior: contain;
+}
+
+#services {
+    overscroll-behavior: contain;
+}
+
 .navbar {
     box-shadow: var(--box-shadow);
 }
@@ -51,14 +65,10 @@ img {
 }
 
 .hero {
-    background: url(/images/front1.gif) no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     position: relative;
     z-index: 2;
 }
-
+/* 
 .hero::after {
     content: "";
     width: 100%;
@@ -68,11 +78,15 @@ img {
     left: 0;
     background-color: rgba(21, 20, 51, 0.8);
     z-index: -1;
-}
+} */
 
 section {
     padding-top: 120px;
     padding-bottom: 120px;
+    width: 100%;
+    overscroll-behavior: contain;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 /* Card Effect */
@@ -198,6 +212,10 @@ section {
     color: var(--primary);
 }
 
+.team-member h5 {
+    pointer-events: none;
+}
+
 .team-member img {
     width: 125px;
     height: 125px;
@@ -207,6 +225,7 @@ section {
 
 .team-member p {
     color: var(--dark);
+    pointer-events: none;
 }
 
 .blog-post:hover img {
