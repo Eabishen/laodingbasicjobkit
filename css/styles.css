@@ -81,8 +81,8 @@ img {
 } */
 
 section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     width: 100%;
     overscroll-behavior: contain;
     overflow-x: hidden;
