@@ -40,11 +40,25 @@ img {
 
 #home {
     overscroll-behavior: contain;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 #services {
     overscroll-behavior: contain;
 }
+
+/* #nav .btn {
+    padding: 10px 12px;
+    background-color: #0b3578;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+#nav .btn:hover {
+    background-color: #0c4196;
+    color: var(--white);
+} */
 
 .navbar {
     box-shadow: var(--box-shadow);
@@ -68,6 +82,47 @@ img {
     position: relative;
     z-index: 2;
 }
+
+/* home */
+
+#home p {
+    text-align: justify;
+}
+
+#home h1 {
+    color: #0b3578;
+}
+/* 
+#home btn {
+    transition: all 1.4s ease;
+} */
+
+/* #home .btnd {
+    padding: 10px 12px;
+    border: 1px solid;
+    color: #0b3578;
+    border-radius: 5px;
+}
+
+#home .btnd:hover {
+    background-color: #0b3578;
+    color: var(--white);
+}
+
+#home .btndm {
+    padding: 10px 12px;
+    background-color: #0b3578;
+    color: var(--white);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#home .btndm:hover {
+    background-color: #0c4196;
+    color: var(--white);
+} */
+
+/* home */
 /* 
 .hero::after {
     content: "";
@@ -85,8 +140,6 @@ section {
     overscroll-behavior: contain;
     overflow-x: hidden;
     box-sizing: border-box;
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 /* Card Effect */
@@ -95,6 +148,7 @@ section {
     background-color: #fff;
     padding: 25px;
     transition: all 0.35s ease;
+    overflow: hidden;
 }
 
 .card-effect:hover {
@@ -116,6 +170,12 @@ section {
     flex: none;
 }
 
+#services {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
 .service {
     position: relative;
     z-index: 2;
@@ -135,6 +195,13 @@ section {
     transition: all 0.4s ease;
 }
 
+.service p {
+    text-align: justify;
+    letter-spacing: 1.2px;
+    word-spacing: 0px;
+    font-size: 15px;
+}
+
 .service:hover .iconbox {
     background-color: var(--white);
     color: var(--primary);
@@ -150,6 +217,15 @@ section {
     top: 0;
 }
 
+#section {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#section p {
+    text-align: justify;
+}
+
 .col-img {
     background-image: url(/images/manage.gif);
     background-position: center;
@@ -157,9 +233,13 @@ section {
     min-height: 500px;
 }
 
+#work {
+    padding-top: 40px;
+    overflow: hidden;
+}
+
 .project {
     position: relative;
-
     overflow: hidden;
 }
 
@@ -182,6 +262,7 @@ section {
 
 .project img {
     transition: all 0.4s ease;
+    object-fit: cover;
 }
 
 .project:hover .overlay {
@@ -190,6 +271,7 @@ section {
 
 .project:hover img {
     transform: scale(1.1);
+    object-fit: cover;
 }
 
 .project:hover .custcolor {
@@ -212,6 +294,16 @@ section {
     color: var(--primary);
 }
 
+#testimonial {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.team-member {
+    overflow: hidden;
+}
+
 .team-member h5 {
     pointer-events: none;
 }
@@ -226,6 +318,12 @@ section {
 .team-member p {
     color: var(--dark);
     pointer-events: none;
+    text-align: justify;
+}
+
+#blog {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .blog-post:hover img {
@@ -238,11 +336,13 @@ section {
 
 .blog-post h5 {
     transition: all 0.45s ease;
+    text-align: justify;
 }
 
 .blog-post p {
     transition: all 0.45s ease;
     pointer-events: none;
+    text-align: justify;
 }
 
 .blog-post:hover h5 {
@@ -250,8 +350,8 @@ section {
 }
 
 .footer-top {
-    padding-top: 90px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 10px;
     background-color: var(--dark);
 }
 
@@ -273,6 +373,7 @@ section {
     padding: 8px 4px;
     color: var(--white);
     transition: all 0.45s ease;
+    text-align: justify;
 }
 
 .footer-top .footlogo:hover {
