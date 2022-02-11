@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Css -->
-
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
         <!-- CSS only -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -21,7 +21,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
-        <link rel="stylesheet" href="css/styles.css" />
+
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +30,7 @@
             rel="stylesheet"
         />
 
-         <!-- animation -->
+        <!-- animation -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,12 +39,25 @@
             href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="css/style.css" />
 
-        <title>Jobaskit</title>
+        <!-- FontAwesome and jQuery -->
+        <script
+            src="https://kit.fontawesome.com/6853311342.js"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Jobaskit's Pricing</title>
     </head>
     <body>
         <!-- navBar -->
-        <nav id="nav"
+        <nav
+            id="nav"
             class="navbar navbar-expand-lg sticky-top py-3 navbar-light bg-white"
         >
             <div class="container">
@@ -92,22 +105,22 @@
                                     >
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#"
+                                    <a
+                                        class="dropdown-item"
+                                        href="features.html"
                                         >Features</a
                                     >
                                 </li>
                                 <li><hr class="dropdown-divider" /></li>
                                 <li>
-                                    <a class="dropdown-item" href="#"
+                                    <a class="dropdown-item" href="index.html"
                                         >Pricing</a
                                     >
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"
-                                >For Students
-                            </a>
+                            <a class="nav-link" href="#">For Students </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">For Campuses</a>
@@ -128,646 +141,238 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Events</a>
-                        </li>                      
+                        </li>
                     </ul>
-                    
                 </div>
             </div>
         </nav>
-        <!-- navBar ends -->
 
-       <!-- Hero -->
-       <section id="home" class="bg-light">
-            <div class="row d-flex">              
-                <div class="col-lg-6 text-center p-5" data-aos="slide-right" data-aos-duration="2000">
-                    <h1 class="display-4">
-                        Start your Business with us now
-                    </h1>
-                    <p class= "my-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Animi odit ratione at aut necessitatibus harum
-                        ab iste, dicta eum incidunt.
-                    </p>
-                    <a href="#" class="btn btn-primary me-1">Get Started</a>
-                    <a href="#services" class="btn btn-outline-primary"
-                        >Discover More</a
+        <!-- Business Landing -->
+        <section>
+            <div id="landingheader" class="header-hero" data-scroll-index="0">
+                <!---- home star ------>
+                <div class="shape shape-1"></div>
+                <!-- <div class="shape shape-2"></div> -->
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+                <div class="shape shape-6"></div>
+                <div class="container">
+                    <div
+                        class="row align-items-center justify-content-center justify-content-lg-between"
                     >
+                        <div class="col-lg-6 col-md-6">
+                            <div
+                                class="header-hero-content"
+                                data-aos="slide-right"
+                                data-aos-duration="1500"
+                            >
+                                <h1
+                                    class="header-title wow fadeInLeftBig mt-0"
+                                    data-wow-duration="3s"
+                                    data-wow-delay="0.2s"
+                                >
+                                    Start your Business with us now!
+                                </h1>
+                                <p
+                                    class="text wow fadeInLeftBig"
+                                    data-wow-duration="3s"
+                                    data-wow-delay="0.4s"
+                                >
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Aspernatur fugiat qui
+                                    tenetur sit vero delectus vitae suscipit
+                                    nostrum aliquam exercitationem
+                                    necessitatibus veniam placeat, voluptatibus
+                                    harum.
+                                </p>
+
+                                <a href="" class="main-btn"
+                                    >Create an account</a
+                                >
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="header-image">
+                                <img
+                                    src="images/In the office-cuate.svg"
+                                    alt=""
+                                    class="image-1 wow fadeInRightBig"
+                                    data-aos-duration="3s"
+                                    data-aos-delay="0.5s"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6" data-aos="fade-in" data-aos-duration="2000">
-                    <img src="/images/WIP.gif" alt="">
+                <div class="container">
+                    <div class="header-shape-1"></div>
+                    <div class="header-shape-2">
+                        <img src="images/header-shape-2.svg" alt="" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Hero End -->
+        </section>
+        <!-- Business Landing Ends -->
 
-        <!-- fsection -->
-        <section id="services">
+        <!-- Details Section -->
+        <section id="lbusinessfeature">
             <div class="container">
-                <div class="row mb-5" data-aos="fade-in" data-aos-duration="1500">
-                    <div class="col-md-8 mx-auto text-center">
-                        <h6 class="text-primary">Perks that comes with us</h6>
-                        <h1>Various Choice for everyone</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Fugit ducimus ipsa illum in asasd  maxime quis culpa
-                            corrupti dolorum facilis obcaecati!
-                        </p>
+                <div class="row mb-5">
+                    <div
+                        class="col-md-8 mx-auto text-center"
+                        data-aos="fade-in"
+                    >
+                        <h1 class="title">Fulfilment is our only option</h1>
+                        <h5>
+                            One platform with all the business features and Job
+                            offers you need to start, run, and grow your
+                            business.
+                        </h5>
                     </div>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect" data-aos="slide-right" data-aos-duration="1500">
-                            <div class="iconbox">
-                                <i class="bx bxs-message-square-dots"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Clients</h5>
-                            <!-- 15 text max -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Quae suscipit at error eum.
-                                Optio, voluptate!
-                           </p>
-                        </div>
+                <div class="row d-flex featurecont">
+                    <div
+                        class="col-lg-6 featureimg pt-md-2"
+                        data-aos="zoom-in"
+                        data-aos-duration="1500"
+                    >
+                        <img
+                            class="landingfeature"
+                            src="/images/Team (1).gif"
+                            alt=""
+                        />
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect" data-aos="zoom-out" data-aos-duration="1500">
-                            <div class="iconbox">
-                                <i class="bx bx-cycling"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Students</h5>
-                            <!-- 15 text max -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Quae suscipit at error eum.
-                                Optio, voluptate!
+
+                    <div
+                        class="col-lg-6 text-start pt-2"
+                        data-aos="slide-left"
+                        data-aos-duration="1500"
+                    >
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut porro ad repellat ipsum animi eaque ipsam
+                            ex neque omnis modi sint, accusamus facere
+                            blanditiis quos nesciunt nemo ipsa sequi fuga rerum
+                            quis. Beatae, saepe minima!
+                        </p>
+                        <a class="cta-btn" href="pricing.html">Know more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Details Section Ends -->
+
+        <!-- ------- Feature Section Start ---------- -->
+        <section class="feature-section pt-5" data-scroll-index="1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-7">
+                        <div
+                            class="section-title text-center mb-30"
+                            data-aos="slide-right"
+                            data-aos-duration="1500"
+                        >
+                            <h1 class="mb-25">
+                                <span>Enjoy the benefits</span>
+                            </h1>
+                            <p class="wow">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Veritatis error enim
+                                perspiciatis iste dignissimos tempore?
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect" data-aos="slide-left" data-aos-duration="1500">
-                            <div class="iconbox">
-                                <i class="bx bxs-chat"></i>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div
+                            class="single-feature wow fadeInUp"
+                            data-aos="zoom-in"
+                            data-aos-duration="1500"
+                        >
+                            <div class="icon color-1">
+                                <i class="fas fa-hand-pointer"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Work</h5>
-                            <!-- 15 text max -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Quae suscipit at error eum.
-                                Optio, voluptate!
-                            </p>
+                            <div class="content">
+                                <h3>Market your business</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Minus sequi pariatur qui
+                                    ut dolore excepturi!
+                                </p>
+                                <a href=""
+                                    >explore now
+                                    <span
+                                        ><i
+                                            class="bx bx-right-arrow-alt"
+                                        ></i></span
+                                ></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect" data-aos="slide-right" data-aos-duration="1500">
-                            <div class="iconbox">
-                                <i class="bx bxs-briefcase"></i>
+                    <div class="col-lg-4">
+                        <div
+                            class="single-feature"
+                            data-aos="zoom-in"
+                            data-aos-duration="1500"
+                        >
+                            <div class="icon color-2">
+                                <i class="fas fa-hand-holding-usd"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Jobs</h5>
-                            <!-- 15 text max -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Quae suscipit at error eum.
-                                Optio, voluptate!
-                            </p>
+                            <div class="content">
+                                <h3>
+                                    Instant Help
+                                    <span style="opacity: 0">business</span>
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Minus sequi pariatur qui
+                                    ut dolore excepturi!
+                                </p>
+                                <a href=""
+                                    >explore now
+                                    <span
+                                        ><i
+                                            class="bx bx-right-arrow-alt"
+                                        ></i></span
+                                ></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect" data-aos="zoom-out" data-aos-duration="1500">
-                            <div class="iconbox">
-                                <i class="bx bxs-user"></i>
+                    <div class="col-lg-4">
+                        <div
+                            class="single-feature"
+                            data-aos="zoom-in"
+                            data-aos-duration="1500"
+                        >
+                            <div class="icon color-3">
+                                <i class="fas fa-stethoscope"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">entrepreneur</h5>
-                            <!-- 15 text max -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Quae suscipit at error eum.
-                                Optio, voluptate!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service card-effect" data-aos="slide-left" data-aos-duration="1500">
-                            <div class="iconbox">
-                                <i class="bx bx-slideshow"></i>
+                            <div class="content">
+                                <h3>
+                                    Know More
+                                    <span style="opacity: 0">business</span>
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Minus sequi pariatur qui
+                                    ut dolore excepturi!
+                                </p>
+                                <a href=""
+                                    >explore now
+                                    <span
+                                        ><i
+                                            class="bx bx-right-arrow-alt"
+                                        ></i></span
+                                ></a>
                             </div>
-                            <h5 class="mt-4 mb-2">Start Up</h5>
-                            <!-- 15 text max -->
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Quae suscipit at error eum.
-                                Optio, voluptate!
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- fsection Ends -->
-
-        <!-- AD section -->
-        <!-- <section id="section" class="row w-100 bg-light">
-            <div class="col-lg-6 col-img" data-aos="zoom-in-right" data-aos-duration="1500"></div>
-            <div class="col-lg-6 py-5">
-                <div class="conatiner">
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1" data-aos="zoom-in-left" data-aos-duration="1500">
-                            <h6 class="text-primary">Life made easy now</h6>
-                            <h1>Manage on the GO!</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Fugit ducimus ipsa illum in
-                                maxime quis culpa corrupti dolorum facilis
-                                obcaecati!
-                            </p>
-
-                            <div class="features d-flex mt-4">
-                                <div class="iconbox me-3">
-                                    <i class="bx bxs-plane-alt"></i>
-                                </div>
-                                <div>
-                                    <h5>Easy apply</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Alias, eius.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="features d-flex mt-4">
-                                <div class="iconbox me-3">
-                                    <i class="bx bxs-ghost"></i>
-                                </div>
-                                <div>
-                                    <h5>Manage everything easily</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Alias, eius.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="features d-flex mt-4">
-                                <div class="iconbox me-3">
-                                    <i class="bx bxs-check-square"></i>
-                                </div>
-                                <div>
-                                    <h5>Great value</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Alias, eius.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- AD end Section -->
-
-        <!-- works -->
-        <!-- <section id="work">
-            <div class="container-fluid">
-                <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center" data-aos="slide-up" data-aos-duration="1500">
-                        <h6 class="text-primary">Our Services</h6>
-                        <h1>Making Everyone's Life easy</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Fugit ducimus ipsa illum in maxime quis culpa
-                            corrupti dolorum facilis obcaecati!
-                        </p>
-                    </div>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="project" data-aos="slide-right" data-aos-duration="1500">
-                            <img src="images/pro1.jpg" alt="" />
-                            <div class="overlay">
-                                <div>
-                                    <h4 class="custcolor">Title</h4>
-                                    <h6 class="custcolor">
-                                        Lorem ipsum dolor sit amet.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="project" data-aos="zoom-in" data-aos-duration="1500">
-                            <img src="images/pro2.jpg" alt="" />
-                            <div class="overlay">
-                                <div>
-                                    <h4 class="custcolor">Title</h4>
-                                    <h6 class="custcolor">
-                                        Lorem ipsum dolor sit amet.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="project" data-aos="slide-left" data-aos-duration="1500">
-                            <img src="images/pro3.jpg" alt="" />
-                            <div class="overlay">
-                                <div>
-                                    <h4 class="custcolor">JoBaskit</h4>
-                                    <h6 class="custcolor">
-                                        JoBaskit is a recruitment platform that
-                                        helps job seekers and recruiters find
-                                        their matches through more accurate data
-                                        from past acquaintances.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><div class="col-lg-4 col-sm-6">
-                        <div class="project" data-aos="slide-left" data-aos-duration="1500">
-                            <img src="images/pro3.jpg" alt="" />
-                            <div class="overlay">
-                                <div>
-                                    <h4 class="custcolor">JoBaskit</h4>
-                                    <h6 class="custcolor">
-                                        JoBaskit is a recruitment platform that
-                                        helps job seekers and recruiters find
-                                        their matches through more accurate data
-                                        from past acquaintances.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><div class="col-lg-4 col-sm-6">
-                        <div class="project" data-aos="slide-left" data-aos-duration="1500">
-                            <img src="images/pro3.jpg" alt="" />
-                            <div class="overlay">
-                                <div>
-                                    <h4 class="custcolor">JoBaskit</h4>
-                                    <h6 class="custcolor">
-                                        JoBaskit is a recruitment platform that
-                                        helps job seekers and recruiters find
-                                        their matches through more accurate data
-                                        from past acquaintances.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><div class="col-lg-4 col-sm-6">
-                        <div class="project" data-aos="slide-left" data-aos-duration="1500">
-                            <img src="images/pro3.jpg" alt="" />
-                            <div class="overlay">
-                                <div>
-                                    <h4 class="custcolor">JoBaskit</h4>
-                                    <h6 class="custcolor">
-                                        JoBaskit is a recruitment platform that
-                                        helps job seekers and recruiters find
-                                        their matches through more accurate data
-                                        from past acquaintances.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><div class="col-lg-4 col-sm-6 m-auto pt-5">
-                        <div class="project" data-aos="slide-left" data-aos-duration="1500">
-                            <img src="images/pro3.jpg" alt="" />
-                            <div class="overlay">
-                                <div>
-                                    <h4 class="custcolor">JoBaskit</h4>
-                                    <h6 class="custcolor">
-                                        JoBaskit is a recruitment platform that
-                                        helps job seekers and recruiters find
-                                        their matches through more accurate data
-                                        from past acquaintances.
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- works Ends -->
-
-        <!-- Pricing -->
-        <!-- <section id="pricing" class="price-cont">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center">
-                        <h6 class="text-primary">Pricing</h6>
-                        <h1>Everyone can Afford!</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Fugit ducimus ipsa illum in maxime quis culpa
-                            corrupti dolorum facilis obcaecati!
-                        </p>
-                    </div>
-                </div>
-                <div class="row g-3">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="pricing card-effect text-center">
-                            <h6>Starter</h6>
-                            <h1>$25</h1>
-                            <hr />
-                            <ul class="list-unstyled mb-4">
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                            </ul>
-                            <div class="btn btn-primary">Start now</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="pricing card-effect text-center">
-                            <h6>Advance</h6>
-                            <h1>$50</h1>
-                            <hr />
-                            <ul class="list-unstyled mb-4">
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                            </ul>
-                            <div class="btn btn-primary">Start now</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="pricing card-effect text-center">
-                            <h6>Enterprises</h6>
-                            <h1>$100</h1>
-                            <hr />
-                            <ul class="list-unstyled mb-4">
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                                <li>
-                                    <i class="bx bxs-circle"></i>
-                                    Lorem, ipsum dolor.
-                                </li>
-                            </ul>
-                            <div class="btn btn-primary">Start now</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>  -->
-        <!-- Pricing Ends -->
-
-        <!-- lfeatures -->
-        <section class="lfeatures">
-            <div class="heading" data-aos="zoom-in" data-aos-duration="1500">
-                <h1>Making Everyone's Life easy</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod cum veritatis quas iste cupiditate consequuntur molestiae laudantium aut nobis laboriosam.</p>
-            </div>
-            <div class="row">
-
-                <!-- First features -->
-
-                <div class="image" data-aos="slide-right" data-aos-duration="1500">
-                  <img src="/images/Lesson-cuate.svg" alt="">
-                </div>
-                <div class="content" data-aos="slide-left" data-aos-duration="1500">
-                    <h1>Internship</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam est nihil accusantium earum in commodi quis ex? Possimus, eum?</p>
-                </div>
-
-                <!-- Second features -->
-                <div class="content" data-aos="slide-right" data-aos-duration="1500">
-                    <h1>Jobs</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam est nihil accusantium earum in commodi quis ex? Possimus, eum?</p>
-                </div>
-                <div class="image" data-aos="slide-left" data-aos-duration="1500">
-                    <img src="/images/People search-rafiki.svg" alt="">
-                </div>
-
-                <!-- third features -->
-                <div class="image" data-aos="slide-right" data-aos-duration="1500">
-                    <img src="/images/Business analytics-pana.svg" alt="">
-                </div>
-                <div class="content" data-aos="slide-left" data-aos-duration="1500">
-                    <h1>Business</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam est nihil accusantium earum in commodi quis ex? Possimus, eum?</p>
-                </div>
-
-                <!-- Fourth features -->
-                <div class="content" data-aos="slide-right" data-aos-duration="1500">
-                    <h1>Campuses</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam est nihil accusantium earum in commodi quis ex? Possimus, eum?</p>
-                </div>
-                <div class="image" data-aos="slide-left" data-aos-duration="1500">
-                    <img src="/images/Classroom-amico (1).svg" alt="">
-                </div>
-
-                <!-- fifth features -->
-                <div class="image" data-aos="slide-right" data-aos-duration="1500">
-                    <img src="/images/Experts-bro.svg" alt="">
-                </div>
-                <div class="content" data-aos="slide-left" data-aos-duration="1500">
-                    <h1>Entrepreneurs</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam est nihil accusantium earum in commodi quis ex? Possimus, eum?</p>
-                </div>
-
-                 <!-- Sixth features -->
-                 <div class="content" data-aos="slide-right" data-aos-duration="1500">
-                    <h1>Quizzes</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam est nihil accusantium earum in commodi quis ex? Possimus, eum?</p>
-                </div>
-                <div class="image" data-aos="slide-left" data-aos-duration="1500">
-                    <img src="/images/Customer Survey-cuate.svg" alt="">
-                </div>
-
-                <!-- Seventh  features -->
-                <div class="image" data-aos="slide-right" data-aos-duration="1500">
-                    <img src="/images/Work time-rafiki.svg" alt="">
-                </div>
-                <div class="content" data-aos="slide-left" data-aos-duration="1500">
-                    <h1>Freelance</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam est nihil accusantium earum in commodi quis ex? Possimus, eum?</p>
-                </div>
-
-            </div>
-        </section>
-        <!-- lfeatures Ends -->
-
-
-        <!-- testimonial  -->
-        <section id="testimonial">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center" data-aos="zoom-out" data-aos-duration="1500">
-                        <h6 class="text-primary">Testimonial</h6>
-                        <h1>Meet our customers!</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Fugit ducimus ipsa illum in maxime quis culpa
-                            corrupti dolorum facilis obcaecati!
-                        </p>
-                    </div>
-                </div>
-                <div class="row text-center g-5">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect" data-aos="zoom-out-right" data-aos-duration="1500">
-                            <img src="images/team1.jpg" alt="" />
-                            <h5 class="mb-0">Raja Rider</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Ea voluptatem nihil culpa
-                                magnam ipsum mollitia quaerat itaque hic saepe
-                                laudantium?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect" data-aos="zoom-out-right" data-aos-duration="1500">
-                            <img src="images/team2.jpg" alt="" />
-                            <h5 class="mb-0">Chandler Bing</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Ea voluptatem nihil culpa
-                                magnam ipsum mollitia quaerat itaque hic saepe
-                                laudantium?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect" data-aos="zoom-out-left" data-aos-duration="1500">
-                            <img src="images/team3.jpg" alt="" />
-                            <h5 class="mb-0">Sheldon Cooper</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Ea voluptatem nihil culpa
-                                magnam ipsum mollitia quaerat itaque hic saepe
-                                laudantium?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team-member card-effect" data-aos="zoom-out-left" data-aos-duration="1500">
-                            <img src="images/team4.jpg" alt="" />
-                            <h5 class="mb-0">Messy Cooper</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Ea voluptatem nihil culpa
-                                magnam ipsum mollitia quaerat itaque hic saepe
-                                laudantium?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonial Ends  -->
-
-        <!-- Blog  -->
-        <section id="blog" class="bg-light">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1500">
-                        <h6 class="text-primary">Blog</h6>
-                        <h1>Latest news from us</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Fugit ducimus ipsa illum in maxime quis culpa
-                            corrupti dolorum facilis obcaecati!
-                        </p>
-                    </div>
-                </div>
-                <div class="row g-2">
-                    <div class="col-md-4">
-                        <div class="blog-post card-effect" data-aos="zoom-in-right" data-aos-duration="1500">
-                            <img src="images/blog2.jpg" alt="" />
-                            <h5 class="mt-4">
-                                <a href="#">
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                </a>
-                            </h5>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Officiis expedita quidem
-                                quisquam magni laborum quas.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="blog-post card-effect" data-aos="zoom-in" data-aos-duration="1500">
-                            <img src="images/blog3.jpg" alt="" />
-                            <h5 class="mt-4">
-                                <a href="#">
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                </a>
-                            </h5>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Officiis expedita quidem
-                                quisquam magni laborum quas.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="blog-post card-effect" data-aos="zoom-in-left" data-aos-duration="1500">
-                            <img src="images/blog1.jpg" alt="" />
-                            <h5 class="mt-4">
-                                <a href="#">
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                </a>
-                            </h5>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Officiis expedita quidem
-                                quisquam magni laborum quas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Blog Ends  -->
+        <!-- ------- Feature Section End ---------- -->
 
         <!-- Footer -->
         <div class="footer-top">
@@ -779,7 +384,8 @@
                             <a href="https://twitter.com/makosinfotech"
                                 ><i class="footlogo bx bxl-twitter"></i
                             ></a>
-                            <a href="https://www.linkedin.com/company/makosinfotech/"
+                            <a
+                                href="https://www.linkedin.com/company/makosinfotech/"
                                 ><i class="footlogo bx bxl-linkedin"></i
                             ></a>
                             <a href="https://www.facebook.com/makosinfotech"
@@ -793,7 +399,12 @@
                     <div class="col-md-3">
                         <h5 class="text-white">Sitemap</h5>
                         <ul class="list-unstyled">
-                            <li><a href="https://www.makosinfotech.com/who-we-our.html">Who we are</a></li>
+                            <li>
+                                <a
+                                    href="https://www.makosinfotech.com/who-we-our.html"
+                                    >Who we are</a
+                                >
+                            </li>
                             <li><a href="#">Invest with us</a></li>
                             <li><a href="#">Career with us</a></li>
                             <li><a href="#">Our Goals</a></li>
@@ -802,7 +413,8 @@
                     <div class="col-md-3">
                         <h5 class="text-white">More</h5>
                         <ul class="list-unstyled">
-                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
                             <li><a href="#">Privacy & Policy</a></li>
                             <li><a href="#">Board of Members</a></li>
                             <li><a href="#">Team Leadership</a></li>
@@ -817,8 +429,7 @@
                                 7th Floor Anna Salai, Teynampet, Chennai -
                                 600018 Tamil Nadu
                             </li>
-                            <li>dummy@email.com</li>
-                            
+                            <li>info@jobaskit.com</li>
                         </ul>
                     </div>
                 </div>
@@ -826,13 +437,13 @@
         </div>
         <div class="footer-bottom text-center pb-2">
             <div class="container">
-                MAKOS INFOTECH © CopyRig​ht 2021.All Rights Reserved</div>
+                MAKOS INFOTECH © CopyRight 2021.All Rights Reserved
+            </div>
         </div>
         <!-- Footer Ends -->
 
-        <!-- Gsap -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
         <script src="/js/main.js"></script>
+
         <!-- JavaScript Bundle with Popper -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -843,10 +454,9 @@
         <!-- AOS animation -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-          AOS.init({
-            once:true
-          });
+            AOS.init({
+                once: true,
+            });
         </script>
-
     </body>
 </html>
