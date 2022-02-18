@@ -402,7 +402,96 @@ section {
 }
 
 @media (max-width: 768px) {
+    #home h1 {
+        padding-top: 0px;
+    }
+
+    #home img {
+        padding-top: 1rem;
+    }
     .lfeatures .row .image img {
         width: 100%;
+    }
+
+    .lfeatures .row .image {
+        flex: 1 1 250px;
+    }
+
+    .lfeatures .row .content {
+        flex: 1 1 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    #home h1 {
+        padding-top: 0px;
+    }
+
+    #home img {
+        padding-top: 0rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    #home img {
+        padding-top: 0px;
+    }
+    .lfeatures .row .image {
+        flex: 1 1 250px;
+    }
+
+    .lfeatures .row .content {
+        flex: 1 1 250px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #home h1 {
+        padding-top: 80px;
+    }
+    .lfeatures img {
+        width: 90%;
+    }
+}
+
+@media (min-width: 2559px) {
+    .navbar .nav-link {
+        font-size: 24px;
+    }
+
+    .btn {
+        padding: 18px 25px;
+        font-size: 24px;
+    }
+    #home h1 {
+        padding-top: 15rem;
+        font-size: 110px;
+    }
+    #home p {
+        font-size: 30px;
+    }
+
+    #services {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .service h5 {
+        font-size: 40px;
+    }
+
+    .service p {
+        text-align: justify;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+        font-size: 25px;
+    }
+    .lfeatures .row .content h1 {
+        font-size: 45px;
+    }
+
+    .lfeatures .row .content p {
+        font-size: 28px;
     }
 }
